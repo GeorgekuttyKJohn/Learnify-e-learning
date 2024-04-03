@@ -1,0 +1,86 @@
+
+.elements{
+    position: relative;
+}
+
+   /* .elements img{
+    width: 100%;
+    max-height: 800px;
+   } */
+    
+
+   .element-video {
+    width: 100%;
+    max-height: 800px;
+    object-fit: cover;
+  }
+
+  
+   .element-text{
+
+    position: absolute;
+    top: 25%;
+    color: white;
+    padding: 20px;
+    padding-left: 50px;
+
+   }
+
+   .element-text h1{
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: bold;
+   }
+
+   .element-text h4{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: bold;
+    margin-bottom: 5px;
+   }
+
+   .element-btn{
+    font-family: 'Poppins', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: rgb(129, 216, 242);
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+    
+   
+
+   }
+
+   .element-btn:hover {
+    background: rgb(158, 226, 249) ;
+    transition:0.3 ease-in;
+
+   }
+
+   .element-btn a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the color from the parent */
+  }
+  
+  /* Optionally, add hover styles */
+  .element-btn a:hover {
+    text-decoration: none; /* Remove underline on hover */
+    /* Add any other hover styles as needed */
+  }
+  
+
+  
+
+
+  

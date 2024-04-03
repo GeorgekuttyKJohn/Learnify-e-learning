@@ -1,0 +1,142 @@
+/* ProductDisplay.css */
+
+.productdisplay {
+  width: 100%;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  padding-left: 140px;
+  display: flex;
+  flex-direction: column; /* Align children vertically */
+  align-items: center; /* Center children horizontally */
+}
+
+.productdisplay1 {
+  width: 900px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgb(146, 207, 226);
+  filter: drop-shadow(10px 7px 10px rgb(129, 216, 242));
+  cursor: pointer;
+  display: flex;
+  justify-content: center; /* Center children horizontally */
+  margin-bottom: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+
+
+
+
+
+
+.productdisplay-left {
+  width: 500px;
+  height: auto;
+  margin: 5%;
+}
+
+.productdisplay-img {
+  border-radius: 5px;
+  height: 250px;
+}
+
+.display-img {
+  height: 230px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.productdisplay-right h1 {
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.productdisplay-right {
+  margin-top: 30px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center children horizontally */
+}
+
+.newprice {
+  color: green;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.oldprice {
+  color: #8c8c8c;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+
+.add-to-cart {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 200px;
+  height: 70px;
+  border-radius: 75px;
+  border: rgb(129, 216, 242);
+  margin-top: 30px;
+  background: rgb(129, 216, 242);
+  color: black;
+  font-size: 17px;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background: rgb(158, 226, 249);
+  transition: 0.3s ease-in;
+}
+
+.productdisplay2 {
+  width: 600px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgb(146, 207, 226);
+  filter: drop-shadow(10px 7px 10px rgb(129, 216, 242));
+  padding: 10px;
+  cursor: pointer;
+  /* display: flex; */
+  justify-content: center; 
+  
+ 
+}
+
+ .product-video-container {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+}
+
+.toggle-video-btn {
+  font-family: 'Poppins', sans-serif;
+  width: 150px;
+  height: 40px;
+  border: 1px solid #ccc;
+  background: rgb(129, 216, 242);
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px; /* Add margin to separate button and video */
+}
+
+.toggle-video-btn:hover {
+  background: rgb(158, 226, 249);
+}
+
+.product-video {
+  display: block;
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,100 @@
+
+
+
+.allcourses h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 50px;
+    font-size: 50px;
+
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  .allcourses-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: max-content;
+    padding: 15px;
+    gap: 20px;
+    padding-bottom: 100px;
+   
+
+  }
+
+  .allcourses-card {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    filter: drop-shadow(10px 7px 10px rgb(129, 216, 242));
+    cursor: pointer;
+    display: flex;
+    margin: 10px;
+    transition: transform 0.2s ease-in-out;
+    padding-bottom: 50px;
+  }
+
+  .allcourses-card:hover {
+    transform:scale(1.08);
+    transform: 0.6;
+  }
+  
+  .course-info {
+    padding: 20px;
+  }
+
+
+  .img{
+    border-radius: 5px;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgb(146, 207, 226);
+
+
+  }
+  
+
+  
+  h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  .price {
+    color: green;
+    font-weight: bold;
+  }
+
+  .old-price {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  
+  .view-course-btn {
+    background: rgb(129, 216, 242);
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .view-course-btn:hover {
+    background: rgb(158, 226, 249) ;
+  }
